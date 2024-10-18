@@ -160,3 +160,40 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+Product Reviews Project.pdf
+1429_1.csv
+final_dataset_2.csv
+final_dataset_100k.csv
+final_dataset_200k.csv
+final_dataset_200k.pkl
+final_dataset_clust.pkl
+final_dataset_sent.pkl
+final_dataset.csv
+final_dataset.pkl
+kk.ipynb
+RoboReviews_Presentation.pptx
+dataframes/beauty_df.csv
+dataframes/electronics_df.csv
+dataframes/office_df.csv
+dataframes/small_df.csv
+sentiment-fine-tuned-distilroberta/config.json
+sentiment-fine-tuned-distilroberta/merges.txt
+sentiment-fine-tuned-distilroberta/model.safetensors
+sentiment-fine-tuned-distilroberta/special_tokens_map.json
+sentiment-fine-tuned-distilroberta/tokenizer_config.json
+sentiment-fine-tuned-distilroberta/tokenizer.json
+sentiment-fine-tuned-distilroberta/training_args.bin
+sentiment-fine-tuned-distilroberta/vocab.json
+.gitignore
+0_Combined_Dataframe.ipynb
+Old_Versions/Clustering_Dev_8Clust.ipynb
+Old_Versions/Sentiment_Dev_1.ipynb
+Old_Versions/Sentiment_Dev_2.ipynb
+Old_Versions/Summarizing_Dev_LoRa.ipynb
+Unified_Versions/0_Combined_Dataframe_uni.ipynb
+Old_Versions/0_Combined_Dataframe_2.ipynb
+1_Sentiment_Dev_VADER.ipynb
+1_Sentiment_Dev_2.ipynb
+Unified_Versions/2_Clustering_Dev_uni.ipynb
+Unified_Versions/1_Sentiment_Dev_uni.ipynb
+~$RoboReviews_Presentation.pptx

@@ -1,8 +1,19 @@
 # RoboReviews
 
-## Overview
+RoboReviews is an AI-driven project aimed at analyzing customer reviews to provide valuable insights that help improve products and services. This project is a part of my AI Engineering BootCamp at Ironhack. The goal is to utilize various machine learning techniques to understand customer feedback better and make informed blog-style productrecommendations.
+This README outlines the installation steps, usage instructions, and key concepts.
 
-RoboReviews is an AI-driven project aimed at analyzing customer reviews to provide valuable insights that help improve products and services. This project is a part of my AI Engineering BootCamp at Ironhack. The goal is to utilize various machine learning techniques to understand customer feedback better and make informed recommendations.
+## Table of Contents
+- [Key Features](#key-features)
+- [Data Preparation](#data-preparation)
+- [Architecture](#architecture)
+- [Current Status](#current-status)
+- [Executing the Code](#executing-the-code)
+- [Technologies Used](#technologies-used)
+
+---
+
+## Key Features
 
 The project focuses on three primary tasks:
 
@@ -18,7 +29,7 @@ Data preparation is crucial for the success of the project, and several steps we
 2. **Filtering Short Reviews**: Reviews with insufficient content were filtered out to focus on meaningful feedback.
 3. **Deduplication and Sampling**: Duplicate reviews and null values were removed, and balanced sampling was performed to ensure equal representation of sentiment groups.
 
-## Project Structure
+## Architecture
 
 - **Sentiment Analysis**: A fine-tuned DistilRoBERTa model is used to classify the sentiment of customer reviews as positive, neutral, or negative. Initially, VADER was explored, but due to its limitations in capturing nuanced sentiments, the decision was made to switch to DistilRoBERTa for improved performance.
 

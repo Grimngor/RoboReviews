@@ -1,6 +1,6 @@
 # RoboReviews
 
-RoboReviews is an AI-driven project aimed at analyzing customer reviews to provide valuable insights that help improve products and services. This project is a part of my AI Engineering BootCamp at Ironhack. The goal is to utilize various machine learning techniques to understand customer feedback better and make informed blog-style productrecommendations.
+RoboReviews is an AI-driven project aimed at analyzing customer reviews to provide valuable insights that help improve products and services. This project is a part of my AI Engineering BootCamp at Ironhack. The goal is to utilize various machine learning techniques to understand customer feedback better and make informed blog-style product recommendations.
 This README outlines the installation steps, usage instructions, and key concepts.
 
 ## Table of Contents
@@ -39,15 +39,15 @@ Data preparation is crucial for the success of the project, and several steps we
 
 ## Current Status
 
-- **Sentiment Analysis Model**: Functional, but needs further optimization.
+- **Sentiment Analysis Model**: Done, the next improvement is to optimize neutral reviews a bit more.
 - **Clustering Model**: Built, but requires improvements to achieve better grouping results.
-- **Generative Model**: In the early stages, with initial ideas being implemented.
+- **Generative Model**: In the early stages of implementation.
 
 ## Executing the Code
 
-1. Running ```"0_Data_Preprocessing.ipynb"``` will generate ```"final_dataset.csv"```. But it needs 4 pre-processed input dataframes that I wasn't able to upload somewhere. So instead I'm including a reduced (70k instead of 200k rows) version of ```final_dataset.csv``` in order to be able to execute the next file.
+1. Running ```"0_Data_Preprocessing.ipynb"``` will generate ```"final_dataset.csv"```. But it needs 4 pre-processed input dataframes that I wasn't able to upload somewhere. So instead I'm including a reduced (70k instead of 200k rows) version of ```final_dataset.csv``` to be able to execute the next file.
 2. Running ```1_Sentiment_Dev.ipynb``` will start by reading ```"final_dataset.csv"``` which will generate sentiment labels and add them to  ```"final_dataset_sent.pkl"``` for the next model to use; And a folder, ```sentiment-fine-tuned-distilroberta``` with the model after training it.
-3. ```2_Clustering_Dev.ipynb``` and ```3_Summarizing_Dev``` are not finished and I didn't have time to ensure they run. but the clustering code was supposed to generate ```final_dataset_clust.pkl``` with the groups added for the generative model to use.
+3. ```2_Clustering_Dev.ipynb``` and ```3_Summarizing_Dev``` are not finished yet. Eventually the clustering code will generate ```final_dataset_clust.pkl``` with the groups added for the generative model to use.
 
 ## Technologies Used
 
